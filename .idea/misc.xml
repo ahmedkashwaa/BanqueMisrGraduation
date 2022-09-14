@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/add_circle_outline_24.xml" value="0.2305" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/dashed_line.xml" value="0.2305" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/email_48.xml" value="0.2305" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/item_selector.xml" value="0.126" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/item_selector_size.xml" value="0.2565" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/item_selector_size_l.xml" value="0.188" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/item_selector_size_m.xml" value="0.188" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/item_selector_sugar_no.xml" value="0.282" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/item_selector_sugar_one.xml" value="0.282" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/item_selector_sugar_three.xml" value="0.282" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/item_selector_sugar_two.xml" value="0.282" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/logo.xml" value="0.1995" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/new_bg.xml" value="0.1995" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/new_bg_decrease.xml" value="0.33" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/new_bg_increase.xml" value="0.1295" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/new_button.xml" value="0.179" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/old_order.xml" value="0.33" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/onboarding_order.xml" value="0.2305" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/drawable/person_48.xml" value="0.2305" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout-land/activity_coffe_buy.xml" value="0.31040564373897706" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout-land/activity_main.xml" value="0.30952380952380953" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout-land/fragment_cart.xml" value="0.31040564373897706" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout-land/fragment_login.xml" value="0.30952380952380953" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout-land/fragment_productcatalog.xml" value="0.31040564373897706" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout-land/fragment_profile.xml" value="0.30952380952380953" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout-land/fragment_register.xml" value="0.30952380952380953" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/activity_auth.xml" value="0.358695652173913" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/activity_coffe_buy.xml" value="0.25" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/activity_on_boarding.xml" value="0.18802083333333333" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/activity_splash.xml" value="0.358695652173913" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/cart_item.xml" value="0.358695652173913" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/fragment_cart.xml" value="0.25" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/fragment_login.xml" value="0.35260416666666666" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/fragment_notifications.xml" value="0.33" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/fragment_productcatalog.xml" value="0.358695652173913" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/fragment_profile.xml" value="0.5" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/fragment_register.xml" value="0.358695652173913" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/rv_list.xml" value="0.33" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/layout/slider_layout.xml" value="0.17831813576494426" />
+        <entry key="..\:/projects/BanquMisrGraduation/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

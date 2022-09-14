@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".presentation.ui.activity.CoffeBuyActivity">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:backgroundTint="#FAF4EE"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:id="@+id/coffe_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Macciato"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center_horizontal" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/coffe_photo"
+                android:layout_width="87dp"
+                android:layout_height="129dp"
+                android:layout_gravity="center_vertical|center"
+                android:src="@drawable/macciato" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onBack"
+                android:background="@android:color/transparent"
+                android:src="@drawable/back2" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.656">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="35dp">
+
+
+                <TextView
+                    android:id="@+id/name_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="296dp"
+                    android:text="Macciato"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@id/price"
+                    app:layout_constraintStart_toStartOf="@id/price"  />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="220 EGP"
+                    android:textColor="#CF9775"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name_price" />
+
+                <TextView
+                    android:id="@+id/quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="1"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/minus"
+                    android:layout_width="31dp"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/new_bg_decrease"
+                    android:backgroundTint="#CF9775"
+                    android:drawableEnd="@drawable/minus"
+                    android:paddingEnd="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="28sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/quantity" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/plus"
+                    android:layout_width="31dp"
+                    android:layout_height="28dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/new_bg_increase"
+                    android:backgroundTint="#CF9775"
+                    android:drawableEnd="@drawable/plus"
+                    android:paddingEnd="12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toEndOf="@+id/quantity" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="35dp"
+                android:text="Size"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/small"
+                    android:checked="true"
+                    android:layout_width="26dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/item_selector_size"
+                    android:button="@android:color/transparent"
+                    android:gravity="top" />
+
+                <RadioButton
+                    android:id="@+id/medium"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/item_selector_size_m"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/large"
+                    android:layout_width="36dp"
+                    android:layout_height="53dp"
+                    android:background="@drawable/item_selector_size_l"
+                    android:button="@android:color/transparent" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="Sugar"
+                android:textSize="20sp" />
+
+
+            <RadioGroup
+                android:id="@+id/rg_sugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/no_sugar"
+                    android:checked="true"
+                    android:layout_width="26dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="25dp"
+
+                    android:background="@drawable/item_selector_sugar_no"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/one_sugar"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/item_selector_sugar_one"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/two_sugar"
+                    android:layout_width="43dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/item_selector_sugar_two"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/three_sugar"
+                    android:layout_width="43dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/item_selector_sugar_three"
+                    android:button="@android:color/transparent" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <carbon.widget.Button
+            android:id="@+id/add_to_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginBottom="36dp"
+            android:elevation="19dp"
+            android:stateListAnimator="@null"
+            app:carbon_cornerRadius="30dp"
+            android:background="#CF9775"
+            android:text="Add to cart"
+            app:carbon_elevationShadowColor="#C85712"
+            android:textColor="@color/white"
+            app:layout_constraintBaseline_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

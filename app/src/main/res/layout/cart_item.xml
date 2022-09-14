@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+
+
+    <ImageView
+        android:id="@+id/cart_item_iv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/cappuccino" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/cart_item_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cappucino"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            >
+
+
+
+        <TextView
+            android:id="@+id/cart_item_price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$50"
+            android:textColor="#CF9775"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/size_cart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Size : L"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:gravity="right" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cart_decrease_count_ib"
+                android:layout_width="31dp"
+                android:layout_height="28dp"
+                android:background="@drawable/new_bg_decrease"
+                android:backgroundTint="#CF9775"
+                android:drawableEnd="@drawable/minus"
+                android:paddingEnd="8dp"
+                android:textSize="28sp"
+                />
+
+
+            <TextView
+                android:id="@+id/cart_item_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:text="10"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cart_increase_count_ib"
+                android:layout_width="31dp"
+                android:layout_height="28dp"
+                android:background="@drawable/new_bg_increase"
+                android:backgroundTint="#CF9775"
+                android:drawableEnd="@drawable/plus"
+                android:paddingEnd="12dp"
+                />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

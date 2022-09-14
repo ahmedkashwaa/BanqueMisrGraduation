@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        tools:context=".presentation.ui.fragments.ProfileFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/carbon_blue_900"
+                android:backgroundTintMode="src_in"
+                android:scaleType="fitXY"
+                android:src="@drawable/person_48" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/profile_username_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Username"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/carbon_blue_900"
+                android:backgroundTintMode="src_in"
+                android:scaleType="fitXY"
+                android:src="@drawable/email_48" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/profile_email_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="example@yahoo.com"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orders History"
+            android:textSize="18sp"
+            android:textColor="#cf9775"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <ImageButton
+            android:id="@+id/remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#faf4ee"
+            tools:visibility="visible"
+            android:layout_gravity="end"
+            android:visibility="invisible"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ic_baseline_delete_forever_24"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_order"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_weight="1" />
+
+        <carbon.widget.Button
+            android:id="@+id/logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="#CF9775"
+            android:elevation="14dp"
+            android:stateListAnimator="@null"
+            android:text="Log out"
+            android:textColor="@color/white"
+            app:carbon_cornerRadius="15dp"
+            app:carbon_elevationShadowColor="#C85712" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</layout>
