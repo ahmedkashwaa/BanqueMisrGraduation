@@ -29,7 +29,6 @@ class CartFragment : Fragment() {
     private val viewModel: CartViewModel by lazy {
         ViewModelProvider(this).get(CartViewModel::class.java)
     }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
