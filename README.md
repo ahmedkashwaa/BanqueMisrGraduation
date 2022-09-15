@@ -15,20 +15,6 @@
 ![5401589](https://user-images.githubusercontent.com/76598011/190278017-52b6307c-9561-416b-9b2f-463324648473.jpg)
 
 
-### Built With:
-• Kotlin <br />
-• Navigation Component Nav Graph <br />
-• View Model <br />
-• Clean Architecture <br />
-• Retrofit <br />
-• ROOM <br />
-• Live Data <br />
-• Recycler View + DiffUtil <br />
-• View Binding <br />
-• Data Binding <br />
-• Glide <br />
-• Logging Interceptor <br />
-
 
 
 
