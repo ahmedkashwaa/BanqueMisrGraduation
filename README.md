@@ -22,8 +22,8 @@
 
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/76598011/190277963-a636874a-14cd-42b7-a1ed-ddb522008b7d.png" width="430" />
-  <img src="https://user-images.githubusercontent.com/76598011/190277966-d290bbd2-26e7-4460-9baf-08a947677305.png" width="430" /> 
+  <img src="https://user-images.githubusercontent.com/76598011/190277963-a636874a-14cd-42b7-a1ed-ddb522008b7d.png" width="330" />
+  <img src="https://user-images.githubusercontent.com/76598011/190277966-d290bbd2-26e7-4460-9baf-08a947677305.png" width="330" /> 
   
 </p>
 
