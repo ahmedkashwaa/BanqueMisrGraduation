@@ -15,8 +15,8 @@
 • Logging Interceptor <br />
 
 
-<img src="https://user-images.githubusercontent.com/76598011/190277953-314943a0-cb58-4610-9148-8ea37855dbff.png" data-canonical-src="" width="300" height="400" />
-<img src="https://user-images.githubusercontent.com/76598011/190277957-a89a203c-3ef3-46cc-9139-3f953923aa40.png" data-canonical-src="" width="300" height="400" />
+<img src="https://user-images.githubusercontent.com/76598011/190277953-314943a0-cb58-4610-9148-8ea37855dbff.png" data-canonical-src="" width="500" height="500" />
+<img src="https://user-images.githubusercontent.com/76598011/190277957-a89a203c-3ef3-46cc-9139-3f953923aa40.png" data-canonical-src="" width="400" height="500" />
 <img src="https://user-images.githubusercontent.com/76598011/190277958-3feedb29-4f2a-4f65-b636-7daf32c1b559.png" data-canonical-src="" width="700" height="1000" />
 <img src="https://user-images.githubusercontent.com/76598011/190277961-d9540433-67fc-4225-8c2f-5f7477460e9c.png" data-canonical-src="" width="700" height="1000" />
 
