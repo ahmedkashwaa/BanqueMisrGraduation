@@ -16,7 +16,9 @@ class splash : AppCompatActivity() {
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN)
         Handler().postDelayed({
-            val intent = Intent(this, AuthActivity::class.java)
+            // no working API for AUTH now , skip
+           // val intent = Intent(this, AuthActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }, SPLASH_TIMER.toLong())

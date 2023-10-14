@@ -15,7 +15,11 @@ import retrofit2.http.GET
 import retrofit2.http.POST
 
 interface CoffeApi{
+   /*
     @GET("product/get")
+    fun getProduct() : Call<List<Products>>
+  */
+    @GET("hot")
     fun getProduct() : Call<List<Products>>
 
     @POST("register")
@@ -33,7 +37,8 @@ val client = OkHttpClient().newBuilder()
     .build()
 
 val retrofit = Retrofit.Builder()
-    .baseUrl("https://coffee-shop2022.herokuapp.com/")
+    //.baseUrl("https://coffee-shop2022.herokuapp.com/")
+    .baseUrl("https://api.sampleapis.com/coffee/")
     .client(client)
     .addConverterFactory(GsonConverterFactory.create())
     .build()

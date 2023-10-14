@@ -1,5 +1,6 @@
 package com.example.banqumisrgraduation.presentation.ui.fragments
 
+import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -47,6 +48,7 @@ class LoginFragment : Fragment() {
             } else if (binding.etPassword.text.isEmpty()) {
                 binding.etPassword.setError("Required Field")
             } else {
+               
                 // Show Progress Bar
                 binding.progressBar.visibility = View.VISIBLE
                 // Disable user interactions

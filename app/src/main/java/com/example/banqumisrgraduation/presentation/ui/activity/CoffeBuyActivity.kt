@@ -48,6 +48,7 @@ companion object {
                 coffeName = this.name
             }
         } else {
+
              coffeePrice = intent.getDoubleExtra("Price", 0.00)
              count = intent.getIntExtra("Count",1)
              coffePhoto = intent.getStringExtra("coffePhoto")
